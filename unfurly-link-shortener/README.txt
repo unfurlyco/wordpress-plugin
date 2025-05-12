@@ -22,6 +22,13 @@ Key Features:
 * Gutenberg editor integration
 
 == Installation ==
+
+0. Create the plugin files from this repo by running this command:
+
+```
+rm unfurly-link-shortener.zip && zip -r unfurly-link-shortener.zip unfurly-link-shortener -x "*.DS_Store" -x "__MACOSX" -x "*.git*"
+```
+
 1. Upload the plugin files to `/wp-content/plugins/unfurly-link-shortener`
 2. Activate the plugin through the 'Plugins' screen in WordPress
 3. Use the Settings->Unfurly Shortener screen to configure the plugin
